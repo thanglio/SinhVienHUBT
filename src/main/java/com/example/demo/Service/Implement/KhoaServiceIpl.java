@@ -16,6 +16,7 @@ import java.util.List;
 public class KhoaServiceIpl implements KhoaService {
     @Autowired
     KhoaRepo khoaRepo;
+
     @Override
     public String save(Khoa khoa) {
         try {

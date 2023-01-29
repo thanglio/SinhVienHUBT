@@ -8,6 +8,7 @@ import java.util.Set;
 @Entity
 @Table(name = "giaovien")
 public class GiaoVien extends BasePeople {
+
     @Column
     private String chucVu;
 

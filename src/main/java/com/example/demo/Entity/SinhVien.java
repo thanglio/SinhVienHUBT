@@ -8,6 +8,7 @@ import java.util.Set;
 @Entity
 @Table(name = "sinhvien")
 public class SinhVien extends BasePeople{
+
     @ManyToOne
     @JoinColumn(name = "lop_id")
     private Lop lop;
